@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    margin-top: 5em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.div_img{
+    height: 250px;
+}
+
+.info{
+    position: relative;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.h1{
+    font-size: 3.5em;
+    color: #292929;
+    margin: 0;
+}
+
+.h2{
+    padding: 50px;
+    padding-top: 0;
+    font-size: 2em;
+    color: #292929;
+    font-weight: 300;
+}

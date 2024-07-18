@@ -1,0 +1,35 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.img {
+    height: 30px;
+    margin-top: 0.5em;
+}
+
+.button {
+    color: #292929;
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+}
+
+.button:hover {
+    color: #49b1ee;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .button {
+        padding: 30px 30px;
+    }
+
+    .img {
+        height: 70px;
+        margin-top: 0.5em;
+    }
+}

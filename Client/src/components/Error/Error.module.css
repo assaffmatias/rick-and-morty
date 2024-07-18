@@ -1,0 +1,39 @@
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.h1{
+    font-size: 10em;
+    margin-bottom: 0;
+    margin-top: .3em;
+    position: relative;
+}
+
+.img{
+    position: absolute;
+    width: 250px;
+    margin-top: 2em;
+}
+
+.h2{
+    font-size: 2em;
+    font-weight: 200;
+}
+
+.button {
+    color: white;
+    margin-top: 20px;
+    background: #292929;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.5s;
+    border: none;
+  }
+  
+  .button:hover {
+    box-shadow: none;
+  }
